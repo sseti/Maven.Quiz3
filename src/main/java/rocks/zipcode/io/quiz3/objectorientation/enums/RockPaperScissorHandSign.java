@@ -11,7 +11,7 @@ public enum RockPaperScissorHandSign {
     public RockPaperScissorHandSign getWinner() {
         RockPaperScissorHandSign result;
         switch (this) {
-            case SCISSOR:
+            case ROCK:
                 result = PAPER;
                 break;
             case PAPER:
